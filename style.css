@@ -2,6 +2,10 @@
 body {
     background-color: pink;
   }
+
+.title {
+  font-size: 15px; 
+}
   
   .all {
     display: flex;
@@ -47,62 +51,34 @@ body {
     }
     
        
-  
-    @media (min-width: 1281px) { 
+   
+     
+      
+      @media (min-width: 768px) { 
         .title {
-        font-size: 75px;
+        font-size: 25px;
         } 
-        .menu {
-            display: none;
-            } 
-        }   
+       
+        } 
 
-        @media (min-width: 1025px) { 
-            .title {
-            font-size: 65px;
-            } 
-            .menu {
+        @media (min-width: 1024px) { 
+          .title {
+          font-size: 55px;
+          } 
+         
+          } 
+
+          @media (max-width: 768px) { 
+                     
+            .list {
                 display: none;
                 } 
             } 
 
-            @media (min-width: 641px) { 
-                .title {
-                font-size: 35px;
-                } 
-                .menu {
-                    display: none;
-                    } 
-                }
-                
-                @media (max-width: 640px) { 
-                     
-                    .list {
-                        display: none;
-                        } 
-                    } 
-
-               
-                    @media (min-width: 961px) { 
-                        .title {
-                        font-size: 55px;
-                        } 
-                       
-                        }      
-
-                        @media (min-width: 481px) { 
-                            .title {
-                            font-size: 25px;
-                            } 
-                           
-                            } 
-
-                            @media (min-width: 320px) { 
-                                .title {
-                                font-size: 15px;
-                                } 
-                               
-                                } 
-
-       
-       
+            @media (min-width: 769px) { 
+             
+              .menu {
+                  display: none;
+                  } 
+              }
+        
